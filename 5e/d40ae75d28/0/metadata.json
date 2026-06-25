@@ -1,0 +1,101 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "5ed40ae75d28",
+  "session_id": "5c44606e-38cf-4bc3-a743-0f175df8e462",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-25T12:22:47.2482223Z",
+  "branch": "master",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "paper_reading/simclr/paper.md",
+    "paper_reading/simclr/source_map.json",
+    "paper_reading/simclr/translation_notes.md"
+  ],
+  "agent": "Claude Code",
+  "model": "DeepSeek-V4-pro",
+  "turn_id": "403a63dfda02",
+  "token_usage": {
+    "input_tokens": 73426,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 605696,
+    "output_tokens": 23437,
+    "api_call_count": 16
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-nature-reader-2026-06-24T08:13:07.3350012Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "nature-reader"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "b005f4e512d7",
+      "timestamp": "2026-06-24T08:13:07.3350012Z",
+      "native": {
+        "command": "/nature-reader"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/nature-reader",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "prompt-skill-claude-code-nature-reader-2026-06-24T08:13:34.5600944Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "nature-reader"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "403a63dfda02",
+      "timestamp": "2026-06-24T08:13:34.5600944Z",
+      "native": {
+        "command": "/nature-reader"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/nature-reader",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-25T12:22:47.2008014Z",
+    "agent_lines": 821,
+    "agent_removed": 0,
+    "human_added": 83,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 904,
+    "total_lines_changed": 918,
+    "agent_percentage": 89.43355119825708,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 133,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/agents/entire-search.md": 25,
+        ".claude/settings.json": 84,
+        ".claude/settings.local.json": 24
+      }
+    }
+  ]
+}
