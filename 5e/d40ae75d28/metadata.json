@@ -3,9 +3,18 @@
   "checkpoint_id": "5ed40ae75d28",
   "strategy": "manual-commit",
   "branch": "master",
-  "checkpoints_count": 1,
+  "checkpoints_count": 6,
   "files_touched": [
+    "mini-simclr-assignment-main/code/__init__.py",
+    "mini-simclr-assignment-main/code/data_utils.py",
+    "mini-simclr-assignment-main/code/linear_probe.py",
+    "mini-simclr-assignment-main/code/loss.py",
+    "mini-simclr-assignment-main/code/model.py",
+    "mini-simclr-assignment-main/code/pretrain.py",
+    "mini-simclr-assignment-main/code/utils.py",
+    "mini-simclr-assignment-main/requirements.txt",
     "paper_reading/simclr/paper.md",
+    "paper_reading/simclr/paper.pdf",
     "paper_reading/simclr/source_map.json",
     "paper_reading/simclr/translation_notes.md"
   ],
@@ -15,13 +24,19 @@
       "transcript": "/5e/d40ae75d28/0/full.jsonl",
       "content_hash": "/5e/d40ae75d28/0/content_hash.txt",
       "prompt": "/5e/d40ae75d28/0/prompt.txt"
+    },
+    {
+      "metadata": "/5e/d40ae75d28/1/metadata.json",
+      "transcript": "/5e/d40ae75d28/1/full.jsonl",
+      "content_hash": "/5e/d40ae75d28/1/content_hash.txt",
+      "prompt": "/5e/d40ae75d28/1/prompt.txt"
     }
   ],
   "token_usage": {
-    "input_tokens": 73426,
+    "input_tokens": 114137,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 605696,
-    "output_tokens": 23437,
-    "api_call_count": 16
+    "cache_read_tokens": 1587712,
+    "output_tokens": 31816,
+    "api_call_count": 43
   }
 }
