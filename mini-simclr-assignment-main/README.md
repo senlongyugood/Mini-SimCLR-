@@ -201,15 +201,12 @@ metric: test accuracy
 1. **实现代码**
 
    需要包含数据读取、数据增强、模型定义、loss 实现、预训练脚本、linear probe 脚本、测试脚本。
-
 2. **实验报告**
 
    说明复现论文、使用数据集、模型结构、数据增强策略、loss 实现、训练设置、实验结果和问题分析。
-
 3. **训练过程记录**
 
    提供 contrastive loss 曲线或关键日志截图，说明模型确实完成了训练流程。
-
 4. **Linear probe 结果**
 
    至少报告：
@@ -220,12 +217,11 @@ metric: test accuracy
    linear probe epoch：
    test accuracy：
    ```
-
 5. **预测结果展示**
 
    展示至少 5 张 CIFAR-10 测试图片，给出真实类别和模型预测类别。
-   
-7. **学生仓库结构**
+6. **学生仓库结构**
+
 ```text
 student-mini-simclr/
 ├── README.md:说明项目环境、安装依赖、如何训练、如何评估；
@@ -241,14 +237,14 @@ student-mini-simclr/
 
 总分 100 分：
 
-| 模块 | 分值 | 要求 |
-|---|---:|---|
-| 数据读取与增强 | 15 | 正确加载 CIFAR-10，能生成两种增强视图 |
-| 模型结构 | 20 | 实现 encoder、projection head，并能输出表征 |
-| NT-Xent loss | 20 | 正确构造正负样本与 temperature-scaled logits |
-| 训练流程 | 20 | 跑通自监督预训练和 linear probe |
-| 实验报告 | 15 | 结构完整，包含 loss、accuracy、问题分析 |
-| 过程记录 | 10 | 提交 AI 对话记录、Git 小步提交记录 |
+| 模块           | 分值 | 要求                                         |
+| -------------- | ---: | -------------------------------------------- |
+| 数据读取与增强 |   15 | 正确加载 CIFAR-10，能生成两种增强视图        |
+| 模型结构       |   20 | 实现 encoder、projection head，并能输出表征  |
+| NT-Xent loss   |   20 | 正确构造正负样本与 temperature-scaled logits |
+| 训练流程       |   20 | 跑通自监督预训练和 linear probe              |
+| 实验报告       |   15 | 结构完整，包含 loss、accuracy、问题分析      |
+| 过程记录       |   10 | 提交 AI 对话记录、Git 小步提交记录           |
 
 加分项，最多 10 分：
 
