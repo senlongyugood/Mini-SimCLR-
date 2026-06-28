@@ -1,0 +1,48 @@
+{
+  "train_images": 50000,
+  "pretrain_epochs": 3,
+  "linear_probe_epochs": 3,
+  "batch_size": 128,
+  "encoder": "cnn",
+  "test_images": 1000,
+  "best_epoch": 3,
+  "best_test_accuracy": 47.699999999999996,
+  "prediction_figure": "E:\\program_prject\\vscode_python_project\\论文复现\\mini-simclr-assignment-main\\mini-simclr-assignment-main\\report\\figures\\prediction_samples.png",
+  "predictions": [
+    {
+      "index": 0,
+      "true_label": "cat",
+      "pred_label": "frog",
+      "true_class": 3,
+      "pred_class": 6
+    },
+    {
+      "index": 1,
+      "true_label": "ship",
+      "pred_label": "ship",
+      "true_class": 8,
+      "pred_class": 8
+    },
+    {
+      "index": 2,
+      "true_label": "ship",
+      "pred_label": "ship",
+      "true_class": 8,
+      "pred_class": 8
+    },
+    {
+      "index": 3,
+      "true_label": "airplane",
+      "pred_label": "ship",
+      "true_class": 0,
+      "pred_class": 8
+    },
+    {
+      "index": 4,
+      "true_label": "frog",
+      "pred_label": "frog",
+      "true_class": 6,
+      "pred_class": 6
+    }
+  ]
+}
